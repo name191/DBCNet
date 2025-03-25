@@ -16,6 +16,7 @@ You can complete the training on the Deepcrack dataset by following the steps be
     python train.py
     ```
 If you have used our code, please cite our paper.
+```bibtex
 @article{ZHANG2025110536,
 title = {Dual-branch crack segmentation network with multi-shape kernel based on convolutional neural network and Mamba},
 journal = {Engineering Applications of Artificial Intelligence},
@@ -27,3 +28,4 @@ doi = {https://doi.org/10.1016/j.engappai.2025.110536},
 url = {https://www.sciencedirect.com/science/article/pii/S0952197625005366},
 author = {Jianming Zhang and Dianwen Li and Zhigao Zeng and Rui Zhang and Jin Wang}
 }
+ ```
