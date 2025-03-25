@@ -15,6 +15,10 @@ You can complete the training on the Deepcrack dataset by following the steps be
     ```shell
     python train.py
     ```
+5. After training, modify line 171 in the 'test. py' file. Change the value of the file path to the folder where you save the training results.
+    ```shell
+    python test.py
+    ```
 If you have used our code, please cite our paper.
 ```bibtex
 @article{ZHANG2025110536,
