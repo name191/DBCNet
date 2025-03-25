@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+You can complete the training on the Deepcrack dataset by following the steps below.
 1. install torch
     ```shell
     conda install pytorch==2.2.1 torchvision==0.17.1 torchaudio==2.2.1 pytorch-cuda=12.1 -c pytorch -c nvidia
@@ -15,8 +15,17 @@
     ```shell
     python train.py
     ```
-=======
-# DBCNet
-# a dual-branch crack segmentation net
-If the above manuscript is accepted, the code and data to the manuscript will be publicly available for free.
->>>>>>> 1c2d4038b5a3b81f8ebab2161cc6f5b02b88fe6b
+If you have used our code, please cite our paper.
+    ```shell
+    @article{ZHANG2025110536,
+    title = {Dual-branch crack segmentation network with multi-shape kernel based on convolutional neural network and Mamba},
+    journal = {Engineering Applications of Artificial Intelligence},
+    volume = {150},
+    pages = {110536},
+    year = {2025},
+    issn = {0952-1976},
+    doi = {https://doi.org/10.1016/j.engappai.2025.110536},
+    url = {https://www.sciencedirect.com/science/article/pii/S0952197625005366},
+    author = {Jianming Zhang and Dianwen Li and Zhigao Zeng and Rui Zhang and Jin Wang}
+    }
+    ```
