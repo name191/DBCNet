@@ -119,7 +119,7 @@ def main(config):
 
         describepath = os.path.join(config.log_dir, "describe.txt")
         with open(describepath, "w") as f:
-            f.write("en=" + config.backbone + "\n" + "de=" + config.decoder+ "\n" + "lr=" + str(config.lr)+ "\n" + "epoch=" + str(config.nepochs))
+            f.write("en=" + config.backbone + "\n" + "de=" + config.decoder+ "\n" + "lr=" + str(config.lr)+ "\n")
             f.close()
         for epoch in range(engine.state.epoch, config.real_nepochs + 1):
             bar_format = '{desc}[{elapsed}<{remaining},{rate_fmt}]'
