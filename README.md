@@ -1,4 +1,4 @@
-You can complete the training on the Deepcrack dataset by following the steps below. The author does not frequently check GitHub. If there are any issues, please send an email to the second author.
+You can complete the training on the Deepcrack dataset by following the steps below. The author does not frequently check GitHub. If there are any issues, please send an email to the second author（第二作者会给你回复的）.
 1. install torch. The version of torch is not important, what is important is to correspond to the CUDA version of the machine. Suggest visiting the PyTorch official website to select the appropriate command.
     ```shell
     #This is the torch installation command corresponding to CUDA version 12.1.
